@@ -1,5 +1,8 @@
 package main
 
-func crawl(url string) []string {
+import "fmt"
 
+func crawl(url string) []string {
+	fmt.Println(url)
+	list, err := links.
 }
